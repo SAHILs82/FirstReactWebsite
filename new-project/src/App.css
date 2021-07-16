@@ -1,0 +1,136 @@
+body{
+  background-color: #282c34;
+  margin: 0px;
+}
+
+.nav{
+  display: flex;
+  background-color: rgba(128, 126, 126, 0.815);
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -8px;
+}
+.nav:hover{
+  background-color: rosybrown;
+  cursor: pointer;
+}
+ul{
+  display: flex;
+}
+li{
+  list-style: none;
+  margin: 1rem;
+}
+a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+.logo{
+  padding: 1rem;
+  color: antiquewhite;
+  margin-left: 10px;
+}
+.first{
+  display: flex;
+}
+.photo{
+  background-image: url("webd.png");
+  background-repeat: no-repeat;
+   box-shadow: 0 4px 16px 0 rgba(144, 48, 223, 0.863); 
+  border: 1px solid palevioletred; 
+  width: 38%;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.photo2{
+  background-image: url("reactjs.png");
+  background-repeat: no-repeat;
+   box-shadow: 0 4px 16px 0 rgba(144, 48, 223, 0.863); 
+  border: 1px solid palevioletred; 
+  width: 38%;
+  height: 340px;
+  margin-top: 50px;
+  margin-left: -41px;
+}
+.s2{
+  width: 50%;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-right: 70px;
+  justify-content: flex-end;
+} 
+.fo{
+  color: #61dafb;
+  font-size: 40px;
+  text-align: center;
+  margin-left: -44px;
+  margin-top: 190px; 
+}
+.flip-card-back {
+   box-shadow: 0 4px 16px 0 whitesmoke;
+  transition: 0.3s;
+  padding: 2px 16px; 
+  background-color: whitesmoke;
+  width: 300px;
+  height: 300px;
+  border: 3px solid palevioletred;
+  perspective: 10000px;
+  text-align: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 100px;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+}
+.clr{
+  background-color: lightcoral;
+  border-radius: 3px;
+  width: 90px;
+  color: black;
+  margin-left: 90px;
+}
+.clr2{
+  background-color: lightcoral;
+  border-radius: 3px;
+  width: 90px;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.clr3{
+  background-color: lightcoral;
+  border-radius: 3px;
+  width: 90px;
+  margin-left: 90px;
+  margin-top: 80px;
+}
+.clr4{
+  background-color: lightcoral;
+  border-radius: 3px;
+  width: 90px;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.footer{
+  background-color: #20232a;
+  height: 300px;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  font-weight: 30px;
+  line-height: 20px;
+  color: rgb(122, 126, 131);
+}
+.footer:hover{
+  background-color: rgb(119, 197, 211);
+  cursor: pointer;
+  color: rgb(41, 61, 50);
+}
+.inner{
+  width: 40%;
+}
+
+
+
